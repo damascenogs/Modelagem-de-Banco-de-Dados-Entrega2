@@ -1001,7 +1001,20 @@ Uso de IA **não declarado é penalizado**. Abaixo, os usos relevantes. Entrega 
 | **Resposta recebida** | Correções pontuais nas frases sobre validade, observação presencial, normalização, KPIs e uso de IA. A diferença entre as versões do SQL foi mantida como pendência de conferência, não como um teste novo. |
 | **Fontes consultadas e verificadas** | Na comparação anterior, o esqueleto, o README, o dicionário e as cópias do SQL descritas no trabalho. Nesta revisão da escrita, a versão completa do README e as informações já fornecidas na conversa; sem nova consulta ao repositório ou execução do MySQL. |
 | **Trechos rejeitados ou corrigidos** | Não mantivemos a ideia de que uma lista gerencial é inválida só por não trazer uma contagem. Separamos a utilidade da lista do cálculo do KPI. Também retiramos a afirmação de que esta revisão comprovava a versão publicada do SQL, porque o texto trazia informações diferentes sobre o saldo do tomate. |
-| **Justificativa da escolha final** | Manter a nossa forma de escrever, os dados do levantamento e os limites do trabalho. O que depende de conferir o arquivo final ou de rodar o SQL continua indicado como pendência. |
+| **Justificativa da escolha final** | Manter a nossa forma de escrever, os dados do levantamento e os limites do trabalho. O que depende de conferir o arquivo final ou de rodar o SQL continua indicado como pendência. | 
+
+### Registro 12 — Claude: Relação do DER com os problemas e revisão de trechos do README
+
+| Item | Descrição |
+|---|---|
+| **Ferramenta e etapa** | Claude — reescrita da tabela "Relação do DER com os problemas" e revisão de trechos do README, com base no guia do DER de 22 entidades e na lista de entidades e atributos. |
+| **Motivação** | Deixar o texto de acordo com o guia do DER e tirar trechos com cara de resposta pronta de IA. |
+| **Prompt(s) utilizados — resumo dos pedidos** | Pedimos a correção da relação do DER com os problemas no mesmo estilo do README, uma lista de inconsistências com o número da linha e a reescrita de parágrafos para soarem mais naturais. |
+| **Resposta recebida** | Textos prontos para colar e a indicação das linhas do README que precisavam mudar. |
+| **Fontes consultadas e verificadas** | O guia do DER de 22 entidades, a lista de entidades e atributos e o README do grupo. O Claude leu uma cópia do repositório para indicar as linhas, sem alterá-lo. |
+| **Trechos rejeitados ou corrigidos** | Não levamos para este README as partes do modelo lógico de 27 tabelas, porque o `docs/script.sql` e o dicionário publicados são do modelo de 13 tabelas. |
+| **Justificativa da escolha final** | Manter o README coerente com o SQL e o dicionário que estão na `main`. |
+| **Reflexão crítica** | A IA só leu o texto. Conferir o desenho, o script e o que está publicado continua sendo nossa responsabilidade. |
 | **Reflexão crítica** | Uma resposta sobre uma cópia antiga não comprova o que está no arquivo publicado. Precisamos conferir a mesma versão do SQL que vai junto com o README. Deixar a escrita mais natural também não pode mudar o sentido do que foi levantado ou testado. |
 
 ---
